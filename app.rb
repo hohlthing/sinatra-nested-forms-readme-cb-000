@@ -1,4 +1,6 @@
 require_relative 'config/environment'
+require_relative 'models/courses.rb'
+require_relative 'models/students.rb'
 
 class App < Sinatra::Base
 
